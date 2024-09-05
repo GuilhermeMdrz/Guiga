@@ -2,7 +2,7 @@ print('-=' * 10, 'Atividade 01', '-=' * 10,)
 num1 = 5.9
 num2 = 8.4
 média = (num1 + num2) / 2
-print(f'A média aritmética entre {num1} e {num2} é igual a {média}')
+print(f'A média aritmética entre {num1} e {num2} é igual a {média:.2f}')
 print('-=' * 27)
 
 print('-=' * 10, 'Atividade 02', '-=' * 10,)
