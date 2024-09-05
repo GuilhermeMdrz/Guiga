@@ -17,5 +17,5 @@ B = 5
 C = A
 A = B
 B = C
-print(f'A é igual a {A}, e B é iual a {B}')
+print(f'A é igual a {A}, e B é iual a {B}.')
 print('-=' * 27)
