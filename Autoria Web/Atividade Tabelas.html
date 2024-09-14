@@ -6,35 +6,44 @@
     <title>Boletim do Aluno</title>
     <style>
         table{
+            border-collapse: collapse;
+            border-style: solid;
+            border-width: 1px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: darkseagreen;
+            width: 90%;
+            height: 400px;
+        }
+        th, td{
             border-style: solid;
             border-width: 1px;
         }
-        td{
-            border-style: solid;
-            border-width: 1px;
-        }
-        .titulo{
-            font-weight: bold;
+        #Destaque{
+            background-color: rgb(11, 133, 11);
         }
     </style>
 </head>
 <body>
     <div>
         <table>
-            <tr class="titulo">
-                <td>Disciplina </td>
-                <td>Professor </td>
-                <td>Ano Letivo </td>
-                <td>Carga Horária </td>
-                <td>Nota 01 </td>
-                <td>Nota 02 </td>
-                <td>Nota 03 </td>
-                <td>Nota 04 </td>
-                <td>Média </td>
+            <tr>
+                <th colspan="9" id="Destaque">Boletim do Aluno</th>
+            </tr>
+            <tr>
+                <th>Disciplina </th>
+                <th>Professor </th>
+                <th>Ano Letivo </th>
+                <th>Carga Horária </th>
+                <th>Nota 01 </th>
+                <th>Nota 02 </th>
+                <th>Nota 03 </th>
+                <th>Nota 04 </th>
+                <th>Média </th>
             </tr>
             <tr>
                 <td>Arte </td>
-                <td>Incógnita </td>
+                <td>Ricardo Augusto </td>
                 <td>2024.2 </td>
                 <td>40 aulas </td>
                 <td>10 </td>
@@ -155,8 +164,8 @@
             </tr>
             <tr>
                 <td>Sociologia </td>
-                <td>Incógnita </td>
-                <td>2024.1 </td>
+                <td>Juliana Kelly </td>
+                <td>2024.2 </td>
                 <td>40 aulas </td>
                 <td>10 </td>
                 <td>10 </td>
