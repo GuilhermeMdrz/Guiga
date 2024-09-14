@@ -6,9 +6,9 @@ print(f'O volume desse cilíndro é igual a {Volume}')
 print('-=' * 27)
 
 print('-=' * 10, 'Atividade 02', '-=' * 10,)
-F = input('Temperatura em Fahrenheit: ')
+F = int(input('Temperatura em Fahrenheit: '))
 C = (F-32)*(5/9)
-print(f'{F}° Fahrenheit correspondem a {C}° Celsius.')
+print(f'{F}° Fahrenheit correspondem a {C:.1f}° Celsius.')
 if C < 17:
     print('Está fazendo frio!')
 else:
@@ -24,7 +24,7 @@ Lmenor = float(input('Digite a largura da parede menor: '))
 Altura = float(input('Digite a altura da sua parede: '))
 Área = ((Lmaior * Altura) * 2) + ((Lmenor * Altura) * 2) + (Lmaior * Lmenor)
 Tinta = Área / 12
-print(f'A soma da área das paredes e do teto é igual a {Área}m2. E para pintar essa área serão necessários {Tinta} baldes de tinta.')
+print(f'A soma da área das paredes e do teto é igual a {Área}m2. E para pintar essa área serão necessários {Tinta:.2f} baldes de tinta.')
 print('-=' * 27)
 
 print('-=' * 10, 'Atividade 04', '-=' * 10,)
@@ -108,5 +108,5 @@ pães = int(input('Quantos pães foram vendidos? '))
 broas = int(input('Quantas broas foram vendidas? '))
 soma = (pães * 0.6) + (broas * 1.5)
 polpança = (soma * 10) / 100
-print(f'Ao vender {pães} pães franceses e {broas} broas, foram arrecadados R${soma}, e devem ser depositados na polpança R${polpança}. ')
+print(f'Ao vender {pães} pães franceses e {broas} broas, foram arrecadados R${soma:.2f}, e devem ser depositados na polpança R${polpança:.2f}. ')
 print('-=' * 27)
